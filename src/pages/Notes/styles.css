@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.notesinput {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.notesinput .notesinput-text .notesinput-text-title,
+.notesinput .notesinput-text .notesinput-text-area {
+    padding: 1rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.notesinput .notesinput-text .notesinput-text-title label,
+.notesinput .notesinput-text .notesinput-text-area label {
+    font-weight: bold;
+}
+.notesinput .notesinput-text .notesinput-text-title input,
+.notesinput .notesinput-text .notesinput-text-area textarea {
+    border-radius: 5px;
+    border: 1px solid rgb(163, 163, 163);
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.notesinput .notesinput-text .notesinput-text-title input:focus,
+.notesinput .notesinput-text .notesinput-text-area textarea:focus,
+.notesinput button:focus {
+    outline: none;
+}
+.notesinput .notesinput-text .notesinput-text-area textarea {
+    min-height: 100px;
+    resize: none;
+    overflow-y: scroll;
+}
+.notesinput button {
+    font-size: 1.8rem;
+    margin-left: auto;
+    border-radius: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 158, 73);
+    width: 100px;
+    height: 50px;
+}
+.notesinput button:hover {
+    cursor: pointer;
+    background-color: rgb(247, 181, 95);
+}
+.notesboxes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.notesboxes h1 {
+    margin-bottom: 1rem;
+}
+.notesboxes ul {
+    width: 100%;
+}
